@@ -5,7 +5,8 @@
 # 2026.10.05 S.TAKAHARA
 #################################################################################
 from ex02ReversePolishNotation import ex02ReversePolishNotation
-
+from ex03FlipTheCardOver import ex03FlipTheCardOver
+from ex04CuttingTheRodIntoPieces import ex04CuttingTheRodIntoPieces
 
 def checkKaizyunn( strCheckString:str ) :                                       #
   boolFlag=True                                                                 #
@@ -43,7 +44,8 @@ def kaizyun_01() :
 #reversePolishNotation_02()
 #transeReversePolishNotaion( "1234")
 
-ex02ReversePolishNotation()
-
-exit(0)
+#ex02ReversePolishNotation()
+#ex03FlipTheCardOver()
+ex04CuttingTheRodIntoPieces()
+#exit(0)
 ##### End of File #####
